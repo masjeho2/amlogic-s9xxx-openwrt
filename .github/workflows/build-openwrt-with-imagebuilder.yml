@@ -74,6 +74,8 @@ on:
           - 5.15.85
           - 6.1.1
           - 6.2.2
+          - 6.3.3
+          - 6.4.0-rc3
       auto_kernel:
         description: "Auto use the latest kernel"
         required: false
