@@ -5,7 +5,7 @@
 # Download options: https://downloads.openwrt.org/releases
 #=====================================================================================
 
-name: Build OpenWrt with ImageBuilder
+name: Build OpenWrt with ImageBuilder22
 
 on:
   repository_dispatch:
