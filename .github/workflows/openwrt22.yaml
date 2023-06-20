@@ -17,6 +17,7 @@ on:
         default: "22.03.3"
         type: choice
         options:
+          - 23.05.0-rc1
           - 22.03.5
           - 22.03.3
           - 21.02.7
