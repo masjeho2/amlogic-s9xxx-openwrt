@@ -168,11 +168,10 @@ rebuild_firmware() {
     echo -e "${STEPS} Start building OpenWrt with Image Builder..."
 
     # Selecting default packages, lib, theme, app and i18n, etc.
-    unused_packages="-dnsmasq"
+    #unused_packages="-dnsmasq"
     # sorting by https://build.moz.one
     my_packages="\
         base-files bash blkid block-mount  \
-        dnsmasq-full \
         btrfs-progs busybox bzip2 cgi-io comgt comgt-ncm  \
         coreutils coreutils-base64 coreutils-nohup curl  \
         dosfstools e2fsprogs fdisk  \
