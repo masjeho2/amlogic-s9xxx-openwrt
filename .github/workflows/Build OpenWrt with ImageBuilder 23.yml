@@ -198,7 +198,7 @@ on:
 
 env:
   TZ: America/New_York
-  IMAGEBUILDER_SH: config/imagebuilder/imagebuilder23.sh
+  IMAGEBUILDER_SH: config-openwrt/imagebuilder/imagebuilder23.sh
 
 jobs:
   build:
