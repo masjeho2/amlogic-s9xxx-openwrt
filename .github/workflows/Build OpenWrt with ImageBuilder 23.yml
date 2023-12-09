@@ -6,7 +6,7 @@
 #                https://downloads.immortalwrt.org/releases
 #=====================================================================================
 
-name: Build OpenWrt with ImageBuilder
+name: Build OpenWrt with ImageBuilder 23
 
 on:
   repository_dispatch:
@@ -198,7 +198,7 @@ on:
 
 env:
   TZ: America/New_York
-  IMAGEBUILDER_SH: config/imagebuilder/imagebuilder.sh
+  IMAGEBUILDER_SH: config/imagebuilder/imagebuilder23.sh
 
 jobs:
   build:
