@@ -171,7 +171,7 @@ rebuild_firmware() {
     #unused_packages="-dnsmasq"
     # sorting by https://build.moz.one
     my_packages="\
-        base-files bash blkid block-mount  \
+        base-files -dnsmasq dnsmasq-full bash blkid block-mount  \
         btrfs-progs busybox bzip2 cgi-io comgt comgt-ncm  \
         coreutils coreutils-base64 coreutils-nohup curl  \
         dosfstools e2fsprogs fdisk  \
