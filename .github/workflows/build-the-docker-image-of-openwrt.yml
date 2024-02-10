@@ -26,7 +26,7 @@ on:
         default: "masjeho2/openwrt-aarch64:latest"
         type: choice
         options:
-          - masjeho2/openwrt-aarch64:latest
+          - masjeho/openwrt-aarch64:latest
 
 env:
   TZ: America/New_York
